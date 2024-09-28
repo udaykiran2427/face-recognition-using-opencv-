@@ -5,7 +5,7 @@ import os
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
 people = ["Tom curise","Zyan"]
-DIR = r'D:\Numpy\images_for_training'
+DIR = r'images_for_training'
 
 features = []
 labels = []
